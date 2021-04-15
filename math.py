@@ -1,2 +1,5 @@
 def sum(x,y):
-    return x+ 2*y
+    if(x>0):
+        return x+ 2*y
+    else:
+        return 1
